@@ -94,23 +94,24 @@ const mission = {
         {/* <Timer /> */}
         <Hero />
         <FitnessFeature fitnessPoint={fitnessPoint} />
-        {/* <Box
+        <Box
           sx={{
             mt: 7,
             pt: 1,
             mb: 7,
+            height:'100%',
+            width:'100%',
+            maxHeight:'600px',
             display: "flex",
             justifyContent: "center",
           }}
         >
-          {/* here you can change the image!! ok ? ok  
-            you want to remove quic link section ?
           <img
-            src="/image/add-image.png"
+            src="/image/mobile_v_1.png"
             alt="Descriptive alt text"
-            style={{ width: "100%", maxWidth: "800px" }}
+            style={{ width: "100%", maxWidth: "500px" }}
           />
-        </Box> */}
+        </Box>
       </Box>
       <Testimonial testimonials={testimonials} />
       <Box className="container">

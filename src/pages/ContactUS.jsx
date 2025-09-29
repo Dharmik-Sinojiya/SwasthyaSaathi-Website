@@ -8,9 +8,9 @@ import { useEffect } from "react";
 
 export default function ContactUs() {
   const mission = {
-    heading: "EMPOWERING HEALTH FOR ALL",
-    description:
-      "At TrainAero, our mission is to make fitness and wellness accessible, inclusive, and achievable for everyone. No matter where you are or what your journey looks like, we're here to support you every step of the way. Together, we can build healthier lives and stronger communities.",
+  heading: "ENABLING HEALTHCARE ACCESS FOR ALL",
+  description:
+    "At SwasthyaSaathi, our mission is to empower ASHA workers with a reliable, mobile-based EHR companion that works even in low internet connectivity areas. We aim to streamline health data collection and improve last-mile healthcare delivery, ensuring no one is left behind in the journey toward better health.",
   };
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
